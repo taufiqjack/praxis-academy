@@ -1,0 +1,354 @@
+Microsoft Windows [Version 10.0.19042.746]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\TAUFIQ DWI CAHYONO>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 16:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter WiFi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::4114:e53b:dd3f:927e%13
+   IPv4 Address. . . . . . . . . . . : 192.168.43.4
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.1
+
+C:\Users\TAUFIQ DWI CAHYONO>ping 192.268.43.4
+Ping request could not find host 192.268.43.4. Please check the name and try again.
+
+C:\Users\TAUFIQ DWI CAHYONO>ping 192.168.43.4
+
+Pinging 192.168.43.4 with 32 bytes of data:
+Reply from 192.168.43.4: bytes=32 time<1ms TTL=128
+Reply from 192.168.43.4: bytes=32 time<1ms TTL=128
+Reply from 192.168.43.4: bytes=32 time<1ms TTL=128
+Reply from 192.168.43.4: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.43.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\TAUFIQ DWI CAHYONO>mrinfo
+There was no address specified
+
+
+Usage: mrinfo [-n?] [-i address] [-t secs] [-r retries] destination
+
+ -n           Display IP addresses in numeric format
+ -i address   Address of local interface to send query out
+ -t seconds   Timeout in seconds for IGMP queries (default = 3 seconds)
+ -r retries   Number of extra times to send the SNMP queries (default = 0)
+ -?           Print Usage
+ destination  Address or name of destination
+
+
+C:\Users\TAUFIQ DWI CAHYONO>net
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+C:\Users\TAUFIQ DWI CAHYONO>ftp
+ftp>
+ftp> exit
+Invalid command.
+ftp>
+ftp> oke
+Invalid command.
+ftp> d:
+Invalid command.
+ftp>
+ftp> ?
+Commands may be abbreviated.  Commands are:
+
+!               delete          literal         prompt          send
+?               debug           ls              put             status
+append          dir             mdelete         pwd             trace
+ascii           disconnect      mdir            quit            type
+bell            get             mget            quote           user
+binary          glob            mkdir           recv            verbose
+bye             hash            mls             remotehelp
+cd              help            mput            rename
+close           lcd             open            rmdir
+ftp> dir
+Not connected.
+ftp> send
+Not connected.
+ftp> !
+Microsoft Windows [Version 10.0.19042.746]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\TAUFIQ DWI CAHYONO>rename
+The syntax of the command is incorrect.
+
+C:\Users\TAUFIQ DWI CAHYONO>find
+FIND: Parameter format not correct
+
+C:\Users\TAUFIQ DWI CAHYONO>slmgr/dlv
+
+C:\Users\TAUFIQ DWI CAHYONO>slmgr/dli
+
+C:\Users\TAUFIQ DWI CAHYONO>slmgr/ato
+
+C:\Users\TAUFIQ DWI CAHYONO>calc
+
+C:\Users\TAUFIQ DWI CAHYONO>diskpart
+
+C:\Users\TAUFIQ DWI CAHYONO>date
+The current date is: 18/01/2021
+Enter the new date: (dd-mm-yy)
+
+C:\Users\TAUFIQ DWI CAHYONO>dir
+ Volume in drive C is System
+ Volume Serial Number is AC09-022F
+
+ Directory of C:\Users\TAUFIQ DWI CAHYONO
+
+16/01/2021  02.16    <DIR>          .
+16/01/2021  02.16    <DIR>          ..
+14/12/2020  20.21    <DIR>          .android
+04/09/2020  05.50               269 .bash_history
+30/01/2019  10.58    <DIR>          .cache
+30/03/2019  10.31    <DIR>          .config
+01/04/2019  09.22    <DIR>          .cordova
+05/01/2021  15.32    <DIR>          .dotnet
+01/08/2019  16.11                16 .emulator_console_auth_token
+13/11/2019  07.04               190 .gitconfig
+04/09/2020  15.19    <DIR>          .gradle
+30/09/2020  08.41    <DIR>          .lemminx
+01/08/2019  20.05    <DIR>          .lsp4xml
+07/03/2019  14.15    <DIR>          .m2
+12/12/2019  23.32    <DIR>          .nbi
+29/09/2020  16.04               122 .node_repl_history
+01/04/2019  14.50    <DIR>          .nuget
+06/04/2019  22.27    <DIR>          .omnisharp
+16/01/2019  08.38    <DIR>          .oracle_jre_usage
+04/01/2020  07.59               400 .packettracer
+16/12/2020  22.09    <DIR>          .quokka
+01/08/2019  14.26    <DIR>          .react-native-cli
+06/04/2019  23.37    <DIR>          .ssh
+05/01/2021  17.07    <DIR>          .templateengine
+01/08/2019  20.38    <DIR>          .tooling
+20/12/2019  15.11    <DIR>          .VirtualBox
+08/11/2019  19.35    <DIR>          .vscode
+22/11/2019  20.58    <DIR>          .wallaby
+17/12/2020  23.21               121 .yarnrc
+07/08/2020  18.27    <DIR>          3D Objects
+06/02/2019  05.05    <DIR>          AndroidStudioProjects
+28/01/2019  21.33    <DIR>          ansel
+07/08/2020  18.27    <DIR>          Contacts
+19/10/2020  08.29    <DIR>          Creative Cloud Files
+12/01/2021  07.51    <DIR>          Desktop
+09/01/2021  22.14    <DIR>          Documents
+15/01/2021  07.03    <DIR>          Downloads
+07/08/2020  18.27    <DIR>          Favorites
+01/08/2019  14.33                66 inittk.ini
+09/08/2020  18.40             2.273 key.jks
+07/08/2020  18.27    <DIR>          Links
+24/11/2020  06.52    <DIR>          Music
+16/01/2019  08.46    <DIR>          Nox_share
+01/08/2019  14.32                45 nuuid.ini
+03/11/2019  23.40    <DIR>          OneDrive
+17/01/2021  22.01    <DIR>          Pictures
+13/08/2019  19.07    <DIR>          Postman
+07/08/2020  18.27    <DIR>          Saved Games
+07/08/2020  18.27    <DIR>          Searches
+31/01/2019  08.25    <DIR>          source
+10/01/2021  23.32    <DIR>          Videos
+26/04/2019  22.46    <DIR>          VirtualBox VMs
+30/10/2019  16.59    <DIR>          vmlogs
+               9 File(s)          3.502 bytes
+              44 Dir(s)  29.793.083.392 bytes free
+
+C:\Users\TAUFIQ DWI CAHYONO>echo
+ECHO is on.
+
+C:\Users\TAUFIQ DWI CAHYONO>hostname
+ASUS-X555U-TDC
+
+C:\Users\TAUFIQ DWI CAHYONO>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>label
+Volume in drive C: is System
+Volume Serial Number is AC09-022F
+Volume label (32 characters, ENTER for none)?
+
+Delete current volume label (Y/N)? n
+
+C:\Users\TAUFIQ DWI CAHYONO>msinfo32
+
+C:\Users\TAUFIQ DWI CAHYONO>netsh
+netsh>
+netsh>
+netsh>?
+
+The following commands are available:
+
+Commands in this context:
+..             - Goes up one context level.
+?              - Displays a list of commands.
+abort          - Discards changes made while in offline mode.
+add            - Adds a configuration entry to a list of entries.
+advfirewall    - Changes to the `netsh advfirewall' context.
+alias          - Adds an alias.
+branchcache    - Changes to the `netsh branchcache' context.
+bridge         - Changes to the `netsh bridge' context.
+bye            - Exits the program.
+commit         - Commits changes made while in offline mode.
+delete         - Deletes a configuration entry from a list of entries.
+dhcpclient     - Changes to the `netsh dhcpclient' context.
+dnsclient      - Changes to the `netsh dnsclient' context.
+dump           - Displays a configuration script.
+exec           - Runs a script file.
+exit           - Exits the program.
+firewall       - Changes to the `netsh firewall' context.
+help           - Displays a list of commands.
+http           - Changes to the `netsh http' context.
+interface      - Changes to the `netsh interface' context.
+ipsec          - Changes to the `netsh ipsec' context.
+lan            - Changes to the `netsh lan' context.
+mbn            - Changes to the `netsh mbn' context.
+namespace      - Changes to the `netsh namespace' context.
+netio          - Changes to the `netsh netio' context.
+offline        - Sets the current mode to offline.
+online         - Sets the current mode to online.
+p2p            - Changes to the `netsh p2p' context.
+popd           - Pops a context from the stack.
+pushd          - Pushes current context on stack.
+quit           - Exits the program.
+ras            - Changes to the `netsh ras' context.
+rpc            - Changes to the `netsh rpc' context.
+set            - Updates configuration settings.
+show           - Displays information.
+trace          - Changes to the `netsh trace' context.
+unalias        - Deletes an alias.
+wcn            - Changes to the `netsh wcn' context.
+wfp            - Changes to the `netsh wfp' context.
+winhttp        - Changes to the `netsh winhttp' context.
+winsock        - Changes to the `netsh winsock' context.
+wlan           - Changes to the `netsh wlan' context.
+
+The following sub-contexts are available:
+ advfirewall branchcache bridge dhcpclient dnsclient firewall http interface ipsec lan mbn namespace netio p2p ras rpc trace wcn wfp winhttp winsock wlan
+
+To view help for a command, type the command, followed by a space, and then
+ type ?.
+
+netsh>ex
+The syntax supplied for this command is not valid. Check help for the correct syntax.
+
+Usage: exec <ScriptFile>
+
+Remarks:
+       Loads the script file and runs it.
+
+netsh>exit
+
+
+C:\Users\TAUFIQ DWI CAHYONO>reg
+ERROR: Invalid syntax.
+Type "REG /?" for usage.
+
+C:\Users\TAUFIQ DWI CAHYONO>type
+The syntax of the command is incorrect.
+
+C:\Users\TAUFIQ DWI CAHYONO>vol
+ Volume in drive C is System
+ Volume Serial Number is AC09-022F
+
+C:\Users\TAUFIQ DWI CAHYONO>winrs
+Winrs error: Command is missing
+Use "winrs -?" to obtain the usage information
+C:\Users\TAUFIQ DWI CAHYONO>attrib
+A                    C:\Users\TAUFIQ DWI CAHYONO\.bash_history
+A                    C:\Users\TAUFIQ DWI CAHYONO\.emulator_console_auth_token
+A                    C:\Users\TAUFIQ DWI CAHYONO\.gitconfig
+A                    C:\Users\TAUFIQ DWI CAHYONO\.node_repl_history
+A                    C:\Users\TAUFIQ DWI CAHYONO\.packettracer
+A                    C:\Users\TAUFIQ DWI CAHYONO\.yarnrc
+A                    C:\Users\TAUFIQ DWI CAHYONO\inittk.ini
+A                    C:\Users\TAUFIQ DWI CAHYONO\key.jks
+A   H   I            C:\Users\TAUFIQ DWI CAHYONO\NTUSER.DAT
+A  SH                C:\Users\TAUFIQ DWI CAHYONO\ntuser.dat.LOG1
+A  SH                C:\Users\TAUFIQ DWI CAHYONO\ntuser.dat.LOG2
+A  SH                C:\Users\TAUFIQ DWI CAHYONO\NTUSER.DAT{1d82e532-d897-11ea-ba92-ef613c1978d0}.TM.blf
+A  SH                C:\Users\TAUFIQ DWI CAHYONO\NTUSER.DAT{1d82e532-d897-11ea-ba92-ef613c1978d0}.TMContainer00000000000000000001.regtrans-ms
+A  SH                C:\Users\TAUFIQ DWI CAHYONO\NTUSER.DAT{1d82e532-d897-11ea-ba92-ef613c1978d0}.TMContainer00000000000000000002.regtrans-ms
+   SH                C:\Users\TAUFIQ DWI CAHYONO\ntuser.ini
+A                    C:\Users\TAUFIQ DWI CAHYONO\nuuid.ini
+
+C:\Users\TAUFIQ DWI CAHYONO>call
+
+C:\Users\TAUFIQ DWI CAHYONO>cleanmgr
+
+C:\Users\TAUFIQ DWI CAHYONO>copy
+The syntax of the command is incorrect.
+
+C:\Users\TAUFIQ DWI CAHYONO>detail
+'detail' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>detail disk
+'detail' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>edit
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>expand
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+No files specified.
+
+C:\Users\TAUFIQ DWI CAHYONO>goto
+
+C:\Users\TAUFIQ DWI CAHYONO>import
+'import' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>load metadata
+'load' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>lpr
+'lpr' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\TAUFIQ DWI CAHYONO>mode
+
+Status for device CON:
+----------------------
+    Lines:          9001
+    Columns:        120
+    Keyboard rate:  31
+    Keyboard delay: 1
+    Code page:      850
+
