@@ -1,0 +1,6 @@
+PertamaJavaCommonConventionsPlugin.java
+ PertamaJavaCommonConventionsPlugin
+PertamaJavaApplicationConventionsPlugin.java
+ PertamaJavaApplicationConventionsPlugin
+PertamaJavaLibraryConventionsPlugin.java
+ PertamaJavaLibraryConventionsPlugin

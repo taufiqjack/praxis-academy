@@ -15,3 +15,7 @@ application {
     // Define the main class for the application.
     mainClass = 'Pertama.app.App'
 }
+
+run{
+    standardInput = System.in
+}
