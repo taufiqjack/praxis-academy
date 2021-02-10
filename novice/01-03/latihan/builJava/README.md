@@ -1,4 +1,4 @@
-<h1>##Penjelasan Building Java dengan Gadle<h1>
+<h1>##Penjelasan Building Java dengan Gadle</h1>
 
 - dalam latihan ini, membuat gradle java aplication yang membuildnya langsung melalui gradle.
 - File java ada didalam direktori src/main/java/demo/App.java yang terdapat inheritance didalamnya.
