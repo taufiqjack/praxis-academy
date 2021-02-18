@@ -1,0 +1,69 @@
+#### List Syntax Database
+
+
+create db
+```
+- create database perpustakaan;
+```
+
+delete db
+``1
+- drop perpustakaan;
+```
+
+select query or show table
+```
+- select judul_buku from buku;
+```
+
+- select distinct judul_buku from buku;
+
+- select judul_buku from buku where condition in (value);
+
+- select distinct judul_buku from buku where condition-1 {and|or} condition-2;
+
+- select distinct judul_buku from buku where jenis_buku in (value);
+
+- select distinct judul_buku from buku where condition between value1 and value2;
+
+- select judul_buku from buku where jenis_buku like {pattern};
+
+- select judul_buku from buku where condition order by jenis_buku {ASC|DESC};
+
+- select judul_buku from buku where condition gruop by jenis_buku;
+
+- select count judul_buku from buku where condition;
+
+- select sum judul_buku from buku where condition gruop by jenis_buku having (fungsi aritmatika condition);
+
+create tabel db
+```
+- create table buku(
+    int kode_buku
+    judul_buku string,
+    jenis_buku string,
+    primary key (kode_buku));
+```
+
+- drop table buku;
+
+- create unique index index_name on buku(judul_buku);
+
+- alter table buku drop index index_name;
+
+- DESC jenis_buku;
+
+- truncate table buku;
+
+- alter table buku {add|drop|mofify} jenis_buku;
+
+- alter table buku rename to majalah;
+- insert into buku (judul_buku) value("Garis Waktu","Fihi ma fihi","Cara cepat menguasai pemrogramman java");
+
+- update buku set judul_buku ="cara cepat kaya" where jenis_buku="komik";
+
+- delete from buku where {condition};
+
+- commit 
+
+- rollback
