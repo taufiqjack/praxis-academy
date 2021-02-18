@@ -15,6 +15,7 @@ select query or show table
 ```
 - select judul_buku from buku;
 ```
+- select * from buku;
 
 - select distinct judul_buku from buku;
 
@@ -39,9 +40,9 @@ select query or show table
 create tabel db
 ```
 - create table buku(
-    int kode_buku
-    judul_buku string,
-    jenis_buku string,
+    int kode_buku 
+    judul_buku varchar (30),
+    jenis_buku varchar (20),
     primary key (kode_buku));
 ```
 
@@ -51,7 +52,7 @@ create tabel db
 
 - alter table buku drop index index_name;
 
-- DESC jenis_buku;
+- desc jenis_buku;
 
 - truncate table buku;
 
