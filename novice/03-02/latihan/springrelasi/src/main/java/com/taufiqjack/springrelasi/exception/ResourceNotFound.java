@@ -1,4 +1,4 @@
-package com.taufiqjack.springrelasi.controller;
+package com.taufiqjack.springrelasi.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
