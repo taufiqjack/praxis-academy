@@ -2,6 +2,7 @@ package com.tafiqjack.spring_securityjwt.security.service;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.tafiqjack.spring_securityjwt.models.User;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -25,11 +26,11 @@ public class UserPrinciple implements UserDetails {
     @JsonIgnore
     private String password;
 
-    private Collection authorities;
+    private Collection<? extends GrantedAuthority> authorities;
 
     public UserPrinciple(Long id, String name,
                          String username, String email, String password,
-                         Collection authorities) {
+                         Collection<? extends GrantedAuthority> authorities) {
         this.id = id;
         this.name = name;
         this.username = username;
@@ -76,7 +77,7 @@ public class UserPrinciple implements UserDetails {
     }
 
     @Override
-    public Collection getAuthorities() {
+    public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;
     }
 
