@@ -1,5 +1,2 @@
-package com.taufiqjack.springboot_mtom.controller;
-
-public class PasienController {
-
+package com.taufiqjack.springboot_mtom.controller;public class PasienController {
 }
