@@ -59,6 +59,11 @@ public class AuthRestAPIs {
         return ResponseEntity.ok(new JwtResponse(jwt));
     }
 
+    @GetMapping("/getuser")
+    public Iterable<User> getUser(){
+        return userRepository.findAll();
+    }
+
     @PostMapping("/signup")
     public ResponseEntity registerUser(@Valid @RequestBody SignUpForm signUpRequest) {
         if(userRepository.existsByUsername(signUpRequest.getUsername())) {
@@ -66,7 +71,7 @@ public class AuthRestAPIs {
                     HttpStatus.BAD_REQUEST);
         }
 
-        if(userRepository.existByEmail(signUpRequest.getEmail())) {
+        if(userRepository.existsByEmail(signUpRequest.getEmail())) {
             return new ResponseEntity("Fail -> Email is already in use!",
                     HttpStatus.BAD_REQUEST);
         }

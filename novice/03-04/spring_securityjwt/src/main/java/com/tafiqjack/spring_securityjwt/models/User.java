@@ -11,7 +11,7 @@ import java.util.Set;
 
 
 @Entity
-@Table(name = "user", uniqueConstraints = {
+@Table(name = "users", uniqueConstraints = {
         @UniqueConstraint(columnNames = {
                 "username"
         }),
@@ -41,6 +41,12 @@ public class User {
     @NotBlank
     @Size(min = 6,max = 100)
     private String password;
+
+    private Long id_mahasiswa;
+
+    @OneToOne
+    @JoinColumn(name = "id_mahasiswa", referencedColumnName = "id", insertable = false, updatable = false)
+    private Mahasiswa mahasiswa;
 
     public Long getId() {
         return id;
